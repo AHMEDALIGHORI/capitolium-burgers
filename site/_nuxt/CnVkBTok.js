@@ -1,0 +1,1 @@
+import{U as l}from"#entry";let u=null;function e(){const e=l("cursor-label",()=>null);return{cursorLabel:e,setCursorLabel:l=>{u&&(clearTimeout(u),u=null),null!==l?e.value=l:u=setTimeout(()=>{e.value=null,u=null},200)}}}export{e as u};

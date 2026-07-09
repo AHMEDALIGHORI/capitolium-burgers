@@ -1,0 +1,1 @@
+import{g as r}from"./Qj6eFDQh.js";import{x as t}from"#entry";function o(){return t(),{applyGrow:function(t,o,n,e){r.set(t,{...o}),n&&r.set(n,{scale:2-e})},growDur:function(r){return 0}}}export{o as u};

@@ -1,0 +1,21 @@
+{
+  "name": "capitolium",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Immersive editorial web experience — cinematic scroll storytelling with GSAP, Lenis, and chapter-driven motion.",
+  "scripts": {
+    "dev": "npx --yes serve site -p 5173",
+    "start": "npx --yes serve site -p 5173",
+    "mirror": "node scripts/mirror-site.mjs",
+    "rebrand": "node scripts/rebrand.mjs"
+  },
+  "keywords": [
+    "editorial",
+    "gsap",
+    "lenis",
+    "scroll",
+    "storytelling",
+    "nuxt",
+    "immersive"
+  ]
+}
