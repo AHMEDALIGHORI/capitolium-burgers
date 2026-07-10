@@ -1,21 +1,30 @@
 {
   "name": "capitolium",
+  "version": "0.1.0",
   "private": true,
-  "version": "1.0.0",
-  "description": "Immersive editorial web experience — cinematic scroll storytelling with GSAP, Lenis, and chapter-driven motion.",
   "scripts": {
-    "dev": "npx --yes serve site -p 5173",
-    "start": "npx --yes serve site -p 5173",
-    "mirror": "node scripts/mirror-site.mjs",
-    "rebrand": "node scripts/rebrand.mjs"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
-  "keywords": [
-    "editorial",
-    "gsap",
-    "lenis",
-    "scroll",
-    "storytelling",
-    "nuxt",
-    "immersive"
-  ]
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "clsx": "^2.1.1",
+    "gsap": "^3.15.0",
+    "lenis": "^1.3.25",
+    "next": "^15.5.20",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^15.5.20",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
 }
